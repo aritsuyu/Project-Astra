@@ -1,0 +1,7 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:ProjectAstraApp"
+        x:Class="ProjectAstraApp.MainWindow"
+        Width="800" Height="450" Background="Black" Title="PS Like UI">
+  <ContentControl x:Name="MainContent"/>
+</Window>

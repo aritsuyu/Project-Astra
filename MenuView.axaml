@@ -1,0 +1,21 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="ProjectAstraApp.MenuView"
+             Background="Black">
+  <DockPanel LastChildFill="True" Margin="20">
+    <!-- Menu topo -->
+    <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="10">
+      <Button Content="Config" Width="100" Height="40" Background="#212121" Foreground="White" CornerRadius="8"/>
+      <Button Content="Loja" Width="100" Height="40" Background="#212121" Foreground="White" CornerRadius="8"/>
+      <Button Content="Sair" Width="100" Height="40" Background="#212121" Foreground="White" CornerRadius="8"/>
+    </StackPanel>
+
+    <!-- Área de jogos -->
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="20">
+      <Button Width="150" Height="150" Content="Jogo 1" Background="#212121" Foreground="White" CornerRadius="16"/>
+      <Button Width="150" Height="150" Content="Jogo 2" Background="#212121" Foreground="White" CornerRadius="16"/>
+      <Button Width="150" Height="150" Content="Jogo 3" Background="#212121" Foreground="White" CornerRadius="16"/>
+      <Button Width="150" Height="150" Content="Jogo 4" Background="#212121" Foreground="White" CornerRadius="16"/>
+    </StackPanel>
+  </DockPanel>
+</UserControl>
